@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(75, 75, 218), navy);
+    color: white;
+    padding: 3px;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.searchBtn {
+    background-color: lightskyblue;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+section {
+    padding: 1.0rem;
+}
+
+.citySearch, .currentCity {
+    font-weight: bold;
+}
