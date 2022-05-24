@@ -20,20 +20,22 @@
                 <h2>Search For A City:</h2>
                 <textarea class="city-search" placeholder="San Diego"></textarea><br>
                 <button type="submit" class="searchBtn" id="search">Search</button><br>
-                <form id="history"></form>
+                <ol class="pastCities"></ol>
             </div>
 
             <div class="col-sm-10 col-md-10 col-lg-9">
-                    <h2 class="currentCity"></h2>
+                <div class="row city-container">
+                    <h2 class="currentCity">This is the current City</h2>
                         <img class="currentImage">
                         <p class="currentTemp"></p>
                         <p class="currentWind"></p>
                         <p class="currentHumidity"></p>
                         <p class="currentUV"></p>
-
+                </div>
             </div>
 
         </article>
     </section>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
