@@ -16,26 +16,32 @@
 
     <section>
         <article class="row">
-            <div class="col-sm-2 col-md-2 col-lg 3">
-                <h2>Search For A City:</h2>
-                <textarea class="city-search" placeholder="San Diego"></textarea><br>
-                <button type="submit" class="searchBtn" id="search">Search</button><br>
-                <ol class="pastCities"></ol>
+            <div class="col-3">
+                <h2 class="search">Search For A City:</h2><br>
+                <input class="city-search" type="text" placeholder="Enter City Name"><br><br>
+                <button type="submit" class="searchBtn" id="search">Search</button><br><br>
+                <ul class="pastCities">past cities will go here</ul>
             </div>
 
-            <div class="col-sm-10 col-md-10 col-lg-9">
+            <div class="col-9">
                 <div class="row city-container">
-                    <h2 class="currentCity">This is the current City</h2>
+                    <h2 class="currentCity"></h2>
                         <img class="currentImage">
                         <p class="currentTemp"></p>
                         <p class="currentWind"></p>
                         <p class="currentHumidity"></p>
                         <p class="currentUV"></p>
                 </div>
+                <div class="row five-day-forecast">
+                    <!-- <div class="card col-xs-3"></div>-->
+                    
+                </div>
             </div>
 
         </article>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

@@ -9,9 +9,10 @@ header {
     padding: 3px;
 }
 
-textarea {
+input {
     border-radius: 5px;
     width: 100%;
+    padding: 5px;
 }
 
 .searchBtn {
@@ -31,4 +32,23 @@ section {
 
 .city-container {
     border: 5px, solid, grey;
+}
+
+.favorable {
+    background-color: green;
+    color: white;
+}
+
+.moderate {
+    background-color: yellow;
+    color: black;
+}
+
+.severe {
+    background-color: red;
+    color: white;
+}
+
+.city-name {
+    width: 89%;
 }
