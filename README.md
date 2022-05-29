@@ -1,5 +1,14 @@
 # Weather Dashboard
 
+## Description
+Create a platform for users to search current weather conditions as well as a 5 day forecast for any city using server side APIs
+
+## Created With:
+* HTML
+* CSS/Bootstrap
+* Javascript
+* OpenWeatherAPI
+
 ## User Story
 AS A traveler
 I WANT to see the weather outlook for multiple cities
@@ -19,5 +28,15 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
 ## Live Link
+https://ecsarg.github.io/weather-dashboard/
+
+## Screenshot
+https://user-images.githubusercontent.com/100548768/170870625-739db354-005f-44d5-b7aa-22771bb7c86f.mov
+
+## Still to Address
+* Fixing cards at bottom
+* Fixing localStorage list to buttons
+* Making current weather icon smaller
+
 
 
