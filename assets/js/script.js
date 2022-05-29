@@ -15,14 +15,20 @@ var searchBtn = document.querySelector(".searchBtn");
 searchBtn.addEventListener("click", function(event) {
     event.preventDefault();
 
-    var city = {
-        cityName: citySearch.value.trim()
-    };
+    var searchCity = citySearch.value;
+    getCoordinates(searchCity);
+    pastCities.push(searchCity);
+    localStorage.setItem("search", JSON.stringify(pastCities));
+    
+    localStorage.getItem(pastCities);
+    cityHistory.append(pastCities);
+   
+   
 
-    $(".city-search").textContent = city + "(" + moment().format("M/D/YYYY") + ")";
-    // pastCities.append('<button type="button" class="list-group-item-light list-group-item list-group-item-action city-name">') + city;
+    $(".city-search").textContent = searchCity + "(" + moment().format("M/D/YYYY") + ")";
+    
 
-    localStorage.setItem("city", JSON.stringify(pastCities));
+    
     
 
     getCoordinates();
